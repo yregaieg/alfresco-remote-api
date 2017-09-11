@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>alfresco-remote-api</artifactId>
     <name>Alfresco Remote API</name>
-    <version>6.0-SNAPSHOT</version>
+    <version>fix_MNT-18404_ImageMagick_fails_on_windows-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <parent>
@@ -36,7 +36,7 @@
         <dir.root>${project.build.directory}/alf_data</dir.root>
         <img.exe>convert</img.exe>
 
-        <dependency.alfresco-repository.version>6.2</dependency.alfresco-repository.version>
+        <dependency.alfresco-repository.version>fix_MNT-18404_ImageMagick_fails_on_windows-2</dependency.alfresco-repository.version>
         <dependency.alfresco-pdf-renderer.version>1.0</dependency.alfresco-pdf-renderer.version>
 
         <dependency.webscripts.version>6.13</dependency.webscripts.version>
